@@ -1,8 +1,8 @@
 # EXPERIMENT--01-ALP-FOR-8086
-Name :
-Roll no 
-Date of experiment :
-
+```
+Name : bala murugan s
+Roll no : 212223230027
+```
 
 
 
@@ -77,25 +77,100 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Programs for arithmetic  operations
 
-## Addition  of 8 bit ALP 
 
+## Addition of 16 bit ALP 
+```
+MOV AX,48c6H
+MOV BX,24e8H
+ADD AX,BX
+RET
+```
 
 
 ## Output  
- 
-## Subtraction   of 8 bit numbers  ALP 
- 
+<img width="1920" height="1200" alt="Screenshot (14)" src="https://github.com/user-attachments/assets/8afdc935-a11b-43ee-890f-ba079bb93f3a" />
+
+## Subtraction of 16 bit numbers  ALP 
+ ```
+MOV AX,89a7H
+MOV BX,18f2H
+SUB AX,BX
+RET
+```
 ## Output  
-## Multiplication alp 
+<img width="1920" height="1200" alt="Screenshot (15)" src="https://github.com/user-attachments/assets/6025721b-8d0d-44a6-8d67-caf2238f2f9f" />
+
+## Multiplication of 16 bit numbers ALP 
+```
+org 100h
+MOV AX,6d42H
+MOV BX,387bH
+MUL BX
+RET
+```
  ## Output  
+<img width="1920" height="1200" alt="Screenshot (16)" src="https://github.com/user-attachments/assets/0649ccd9-4f50-41f0-a77d-22dfdecc6b14" />
 
 
-## Division alp 
+## Division of 16 bit numbers ALP
+```
+MOV AX,5241H
+MOV BX,27a1H
+DIV BX
+RET
+```
 
 ## Output  
+<img width="1920" height="1200" alt="Screenshot (17)" src="https://github.com/user-attachments/assets/710a4633-c92a-4401-9083-abb5e7748c49" />
+
+
+# AND of 16 bit numbers ALP
+```
+MOV AX,241fH
+MOV BX,4372H
+AND AX,BX
+RET
+```
+# Output
+<img width="1920" height="1200" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/3e5db530-8e27-4a90-9da5-eea773d8edc2" />
+
+
+# OR of 16 bit numbers ALP
+```
+MOV AX,45d1H
+MOV BX,662aH
+OR AX,BX
+RET
+```
+# Output
+<img width="1920" height="1200" alt="Screenshot (19)" src="https://github.com/user-attachments/assets/007dc59c-969e-499d-a846-917296dc32cc" />
+
+
+# NOT of 16 bit numbers ALP
+```
+MOV AX,561cH
+NOT AX
+RET
+```
+
+# Output
+
+
+# XOR of 16 bit numbers ALP
+```
+MOV AX,98b2H
+MOV BX,44d2H
+XOR AX,BX
+RET
+```
+
+# Output
+<img width="1920" height="1200" alt="Screenshot (21)" src="https://github.com/user-attachments/assets/ce7657f5-6bc8-4a6a-a8ee-58dbcf3de3c9" />
+
 
 
 ## Result :
+The exeacution of ALP on fundamental arithmetic and logical operations is successfully completed.
  
 
 
